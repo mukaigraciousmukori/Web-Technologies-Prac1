@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- This is the contact page where people can reach out to Mukai -->
+<html lang="en">
+<head>
+    <!-- Basic page settings -->
+    <meta charset="UTF-8">
+    <!-- Viewport settings for mobile responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Import Font Awesome icons for social media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Link our custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Import Poppins font from Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Get In Touch</title>
+</head>
+<body>
+    <!-- Navigation menu at the top of the page -->
+    <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./getintouch.html">Contact me</a></li>
+    </ul>
+<br/><br/>
+  <!-- Page title section -->
+  <h1>Get In Touch</h1>
+    <!-- Decorative line under title -->
+    <hr class="myline"/>
+    <!-- Subtitle explaining the page -->
+    <p>Feel free to reach out for collaboration or just a friendly hello!</p>
+    <!-- Contact form where users can send messages -->
+    <form action="/action_page.php">
+        <!-- Name input field -->
+        <label for="fname">Name:</label><br/><br/>
+        <input type="text" id="fname" name="fname" placeholder="Your name" pattern="[A-Za-z\s'-]+" title="Only letters, spaces, hyphens, and apostrophes allowed" required><br/><br/>
+        <!-- Last name input field -->
+        <label for="lname">Last Name:</label><br/><br/>
+        <input type="text" id="lname" name="lname" placeholder="Your surname" pattern="[A-Za-z\s'-]+" title="Only letters, spaces, hyphens, and apostrophes allowed" required><br/><br/>
+        <!-- Email input field -->
+        <label for="email">Email:</label><br/><br/>
+        <input type="email" id="email" name="email" placeholder="Your email" required><br/><br/>
+        <!-- Message textarea for longer text -->
+        <label for="message">Message:</label><br/><br/>
+        <textarea id="message" name="message" placeholder="Your message" required></textarea><br/><br/>
+        <!-- Submit button to send the form -->
+        <button type="submit">Send Message</button><br/><br/>
+        <hr/>
+
+        <p>Reach me directly at</p>
+        <!-- Email link -->
+        <p><i class="fas fa-envelope"></i> <a href="mailto:mukaigmukori@gmail.com">mukaigmukori@gmail.com</a></p>
+        <p>Or connect with me:</p>
+        <!-- Social media links section -->
+        <div class="social-links">
+  <!-- Facebook link -->
+  <a href="https://facebook.com/yourprofile" target="_blank">
+    <p><i class="fab fa-facebook"></i>facebook</p>
+  </a>
+
+  <!-- Twitter link -->
+  <a href="https://twitter.com/yourprofile" target="_blank">
+    <p><i class="fab fa-twitter"></i>twitter</p>
+  </a>
+
+  <!-- LinkedIn link -->
+  <a href="https://linkedin.com/in/yourprofile" target="_blank">
+    <p><i class="fab fa-linkedin"></i>linkedin</p>
+  </a>
+</div>
+    </form>
+
+</body>
+</html>
